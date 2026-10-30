@@ -1,0 +1,56 @@
+{
+  "id": "halloween",
+  "nom": "Halloween",
+  "sousTitre": "Project Horror Escape",
+  "versionPack": "1.0.11",
+  "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
+  "image": "affiche.png",
+  "memoire": {
+    "conseille": 6144
+  },
+  "serveur": {
+    "adresse": "26.140.196.169",
+    "port": 25565,
+    "aide": "Allume Radmin VPN pour voir le serveur."
+  },
+  "inclure": [
+    "config/ftbquests/**",
+    "config/modernfix-mixins.properties"
+  ],
+  "premierLancement": [
+    "options.txt",
+    "config/oculus.properties",
+    "config/cwb.json",
+    "config/xaero/**"
+  ],
+  "original": [
+    "config/daycounter-player-days.json",
+    "config/embeddium-*.json",
+    "config/fml.toml",
+    "config/jei/**",
+    "config/voicechat/voicechat-client.properties"
+  ],
+  "exclure": [],
+  "serveurInclure": [
+    "config/ftbquests/**"
+  ],
+  "serveurGarder": [
+    "config/goat_man-common.toml",
+    "config/godwand-server.json"
+  ],
+  "theme": {
+    "police": "pirata",
+    "accent": "#ff7a1a",
+    "accent2": "#c81e1e",
+    "ciel": [
+      "#05060f",
+      "#0b1026",
+      "#1a1430"
+    ],
+    "brume": "#3a3550",
+    "sol": "#03040a",
+    "lune": true,
+    "particules": "braises",
+    "lueur": "#ff7a1a"
+  }
+}
