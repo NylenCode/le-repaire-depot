@@ -1,0 +1,696 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lieux_maudits"
+	group: ""
+	icon: "minecraft:filled_map"
+	id: "197C8BCEB6A4EF05"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"48DE4F0C8217521E"
+			]
+			description: [
+				"Les indices du tableau parlent de biomes et de lieux précis."
+				"La &2boussole de biomes&r et la &2boussole de structures&r t'y mènent."
+			]
+			id: "4ED08965708CC8ED"
+			rewards: [
+				{
+					count: 3
+					id: "7728C49DCB59E014"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					id: "44701EC4B8EA0CAA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "48E5716BB6C73608"
+					item: "naturescompass:naturescompass"
+					title: "Une boussole de biomes"
+					type: "item"
+				}
+				{
+					id: "5608E1012C84DA73"
+					item: "explorerscompass:explorerscompass"
+					title: "Une boussole de structures"
+					type: "item"
+				}
+			]
+			title: "&2Sortir de la base"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Les &2Waystones&r trouvées dans les villages se relient entre elles."
+				"Posez-en une à la base : retour express quand ça tourne mal."
+			]
+			id: "533294CBF32CE55E"
+			rewards: [
+				{
+					count: 8
+					id: "3983FB6D442B1326"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3762367A8E425B30"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					id: "4C96279C9EAAEC54"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "3997162C874652DC"
+					item: "waystones:waystone"
+					title: "Une pierre de téléportation"
+					type: "item"
+				}
+			]
+			title: "Un point de retour"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Une maison abandonnée. Les lumières s'allument toutes seules."
+			]
+			id: "55516E26A12F270D"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "709437DE66DBB0A0"
+					item: "horror_element_mod:broken_light"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2AE715B09A143C99"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "316C8739379136E0"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "0980E9D22E585047"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "424F68A40DDF1465"
+					structure: "horror_structures:horror_house1"
+					title: "Trouver : La maison de l'horreur"
+					type: "structure"
+				}
+			]
+			title: "La maison de l'horreur"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Quelqu'un priait ici. Pas un dieu que tu connais."
+			]
+			id: "4F49B13B2AC379D8"
+			optional: true
+			rewards: [
+				{
+					id: "2331FE1BAB266F1E"
+					item: "born_in_chaos_v1:charmof_power"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7842F4AC2C0DADF8"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B6A3D76093EC482"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "5C2E17AD65D4D605"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "2C57AA2FBA311DAC"
+					structure: "horror_structures:temple"
+					title: "Trouver : Le temple oublié"
+					type: "structure"
+				}
+			]
+			title: "Le temple oublié"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Des tentes, un feu éteint... et personne."
+			]
+			id: "43D9094DB8C9F1F7"
+			optional: true
+			rewards: [
+				{
+					id: "482986B51F9E96FD"
+					item: "comforts:sleeping_bag_black"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40DB1E16AA9AC10E"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BB71E6102195635"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "602EC0E5347B75C2"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "1F1D6638AC8A9EC5"
+					structure: "spooky_campsite:spooky_campsite"
+					title: "Trouver : Le camping sinistre"
+					type: "structure"
+				}
+			]
+			title: "Le camping sinistre"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"De là-haut, on voit venir le danger. En théorie."
+			]
+			id: "422EF6BCB85414AB"
+			optional: true
+			rewards: [
+				{
+					id: "0C3DB144FB263423"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:power"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DC336628ED39075"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6372812BC046167E"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "3CB91585F2E47D30"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "7581613C14FEA463"
+					structure: "watchtower_building:abandoned_watchtower"
+					title: "Trouver : La tour de guet abandonnée"
+					type: "structure"
+				}
+			]
+			title: "La tour de guet abandonnée"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Les morts y dorment. Ne les réveille pas."
+			]
+			id: "40236C984D4E4EF5"
+			optional: true
+			rewards: [
+				{
+					id: "4F0B2A88F8F4502A"
+					item: "born_in_chaos_v1:death_totem"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6519CEEE7F096FB7"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "298F56117BAF60B7"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "15A6D8FF0C669124"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "0CF1F91A5E8FC468"
+					structure: "explorify:mausoleum"
+					title: "Trouver : Le mausolée"
+					type: "structure"
+				}
+			]
+			title: "Le mausolée"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Les habitants sont partis. Pourquoi ?"
+			]
+			id: "7ACE9567345FC1B7"
+			optional: true
+			rewards: [
+				{
+					id: "3468A34D7DAE580E"
+					item: "farmersdelight:shepherds_pie"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5A8A66EA2A1A67FE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D58A75534B8A9B7"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "6DFEC312FC514ADD"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "392D96B01D0BD3DB"
+					structure: "explorify:dark_forest_settlement"
+					title: "Trouver : Le hameau de la forêt sombre"
+					type: "structure"
+				}
+			]
+			title: "Le hameau de la forêt sombre"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Enfin un peu de chaleur... ou pas."
+			]
+			id: "65B056A320931BC4"
+			optional: true
+			rewards: [
+				{
+					id: "6F9E35C64B7843A4"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BDD10336C3C0A2E"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7638AD454B52C6FA"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "3249ADD3732E267D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "40CF597E484A49AE"
+					structure: "explorify:tavern"
+					title: "Trouver : La taverne"
+					type: "structure"
+				}
+			]
+			title: "La taverne"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Les mineurs ont creusé trop profond. Quelque chose les a entendus."
+			]
+			id: "6F53A3030AC676DC"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "78FECA20232562C6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "76400A8BC1599F45"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1125410118DFE639"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "17034D9AFE22C20E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:filled_map"
+					id: "37F99C9F84564C98"
+					structure: "bettermineshafts:mineshaft_oak"
+					title: "Trouver : La mine abandonnée"
+					type: "structure"
+				}
+			]
+			title: "La mine abandonnée"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"L'air y est glacial... le Frost-Husk aime ça."
+			]
+			id: "17CB88177A261D1B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "74CFEE59137C3595"
+					item: "born_in_chaos_v1:elixirof_ice_barrier"
+					type: "item"
+				}
+				{
+					id: "1FB20F8ECBCEC577"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7504D588CE308093"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+				{
+					id: "73279EBF214B5EE5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					biome: "#minecraft:is_mountain"
+					icon: "minecraft:grass_block"
+					id: "6CBF43EA1B9DF550"
+					title: "Visiter : Les sommets"
+					type: "biome"
+				}
+			]
+			title: "Les sommets"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Le Tailleur aveugle y erre le jour."
+			]
+			id: "6120AFE58E74B367"
+			optional: true
+			rewards: [
+				{
+					id: "5B305EC58EC7B546"
+					item: "born_in_chaos_v1:charmof_stealth"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6D06E1B6F3599A7C"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76E24FD5C4DE9A30"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+				{
+					id: "75EA2F1ACC00AE17"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					icon: "minecraft:grass_block"
+					id: "38B41A5B51FA0A7F"
+					title: "Visiter : Les grottes luxuriantes"
+					type: "biome"
+				}
+			]
+			title: "Les grottes luxuriantes"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"Même à midi, il fait nuit sous ces arbres."
+			]
+			id: "7B67BD868B65C1EF"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5E308EA3B4C1C7EF"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "35228316CEB1B114"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F947F3EC681E05D"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+				{
+					id: "6BCF6591BFAC6310"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:dark_forest"
+					icon: "minecraft:grass_block"
+					id: "6A258D6C482E44DC"
+					title: "Visiter : La forêt sombre"
+					type: "biome"
+				}
+			]
+			title: "La forêt sombre"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ED08965708CC8ED"
+			]
+			description: [
+				"&cLe silence absolu.&r Chaque pas résonne."
+			]
+			id: "25A4A26FDD295032"
+			optional: true
+			rewards: [
+				{
+					id: "21EE8DB3D65D86A0"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:swift_sneak"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3755C58D4187B470"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6581BAC1B4439642"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+				{
+					id: "4EA8808A89987938"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:deep_dark"
+					icon: "minecraft:grass_block"
+					id: "12A6E432E7A3023B"
+					title: "Visiter : Les abysses"
+					type: "biome"
+				}
+			]
+			title: "Les abysses"
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+	subtitle: [
+		"Exploration"
+	]
+	title: "&2Lieux maudits"
+}

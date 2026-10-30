@@ -1,0 +1,555 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nuit_des_citrouilles"
+	group: ""
+	icon: "minecraft:jack_o_lantern"
+	id: "2D32F82F28773A77"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"48DE4F0C8217521E"
+			]
+			description: [
+				"C'est Halloween. Décorez la base : &64 citrouilles-lanternes&r pour commencer."
+				"&7Citrouille sculptée (cisailles) + torche."
+			]
+			id: "244E2493E0281626"
+			rewards: [
+				{
+					count: 2
+					id: "2E4B61D2850EB78D"
+					item: "born_in_chaos_v1:bagof_candy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ECE45B1F6F8016B"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "78DFA35472A16012"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "28EA37767A459E92"
+					item: "minecraft:jack_o_lantern"
+					title: "4 citrouilles-lanternes"
+					type: "item"
+				}
+			]
+			title: "&6Allumer la fête"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les décorations de Creepy Decorations : de quoi transformer la base en cimetière."
+				"&7Récompense : poupée cassée, croix, lanternes rouges et un tableau maudit (Horror Element)."
+			]
+			id: "0F1E145CBA17E408"
+			rewards: [
+				{
+					id: "264CBDD9D5BBA10A"
+					item: "creepydecorations:broken_doll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25E081F21A65C593"
+					item: "creepydecorations:wooden_cross"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C755B156C93AAFB"
+					item: "horror_element_mod:redlantern"
+					type: "item"
+				}
+				{
+					id: "198A8448338E3380"
+					item: "horror_element_mod:cursed_painting"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F2D8871413FF0B0"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "73B5EC66184FB199"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "36CDF4E3D3F57EE9"
+					item: "creepydecorations:haunted_pumpkin"
+					title: "Une citrouille hantée"
+					type: "item"
+				}
+				{
+					id: "6DF6DA12696978B9"
+					item: "creepydecorations:mossy_gravestone"
+					title: "Une pierre tombale"
+					type: "item"
+				}
+				{
+					id: "3FA5D299065D3B5B"
+					item: "creepydecorations:emerging_hand"
+					title: "Une main qui sort de terre"
+					type: "item"
+				}
+			]
+			title: "Maison hantée"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les friandises de Spooky Foods. Partagez avec l'équipe... ou pas."
+			]
+			id: "13C7FB6AF549D4B5"
+			rewards: [
+				{
+					count: 8
+					id: "56F3FC73E1CB9E22"
+					item: "born_in_chaos_v1:holiday_candy"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6448DA7A6A09BD4C"
+					item: "born_in_chaos_v1:mint_candy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F93E94D750AF8DC"
+					item: "born_in_chaos_v1:magical_holiday_candy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E5DEA2EAF91DE5A"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "35508E1B207957DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "34AC98764E6A4DD5"
+					item: "ls_spooky_foods:magma_cookie"
+					title: "Cookie de magma"
+					type: "item"
+				}
+				{
+					id: "49A9FC308FAD281A"
+					item: "ls_spooky_foods:fireball_lollipop"
+					title: "Sucette boule de feu"
+					type: "item"
+				}
+				{
+					id: "03A90DD65D3A09D3"
+					item: "ls_spooky_foods:creeper_cake"
+					title: "Gâteau Creeper"
+					type: "item"
+				}
+			]
+			title: "Des bonbons ou un sort"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"13C7FB6AF549D4B5"
+			]
+			description: [
+				"Ça a l'air immonde. C'est sûrement délicieux."
+			]
+			id: "28EB9F9E799A9186"
+			rewards: [
+				{
+					count: 4
+					id: "4849E9B3B1298CEC"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7539B7C71D1BD1DD"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "5BC78987F29525E8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "234FC677D799545F"
+					item: "ls_spooky_foods:spider_eye_soup"
+					title: "Soupe d'yeux d'araignée"
+					type: "item"
+				}
+				{
+					id: "11A21A0E09346592"
+					item: "ls_spooky_foods:skeleton_bone_broth"
+					title: "Bouillon d'os"
+					type: "item"
+				}
+				{
+					id: "04D13560A518BBA5"
+					item: "ls_spooky_foods:phantom_ghast_drink"
+					title: "Boisson de fantôme"
+					type: "item"
+				}
+			]
+			title: "Cuisine de sorcière"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les citrouilles de &6Born in Chaos&r sortent les nuits d'Halloween."
+			]
+			id: "023743144367C919"
+			rewards: [
+				{
+					count: 2
+					id: "500028E8E62BD8C1"
+					item: "born_in_chaos_v1:flaming_evil_pumpkin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268CAEDC777A0AFE"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "494EEA40E473A6CF"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:pumpkin_spirit"
+					icon: "minecraft:carved_pumpkin"
+					id: "40EEE02E198DCCF0"
+					title: "Vaincre : Esprit de citrouille ×3"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Esprit de citrouille"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les citrouilles de &6Born in Chaos&r sortent les nuits d'Halloween."
+			]
+			id: "7D5F1FC541F640B1"
+			rewards: [
+				{
+					count: 4
+					id: "62A4B4938543E0D6"
+					item: "born_in_chaos_v1:caramel_pepper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0559E9132667AC18"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "7739A8D9E203BEF2"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:mr_pumpkin"
+					icon: "minecraft:carved_pumpkin"
+					id: "48D85898214A0582"
+					title: "Vaincre : Monsieur Citrouille"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Monsieur Citrouille"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les citrouilles de &6Born in Chaos&r sortent les nuits d'Halloween."
+			]
+			id: "41F2C8AB1EA96B23"
+			rewards: [
+				{
+					count: 2
+					id: "317D3734E1D247D2"
+					item: "born_in_chaos_v1:bagof_candy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71AD7007C3BA6543"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "0B209C7A97842CF4"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:pumpkin_dunce"
+					icon: "minecraft:carved_pumpkin"
+					id: "386001578BF1BC9D"
+					title: "Vaincre : Citrouille benête"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Citrouille benête"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les citrouilles de &6Born in Chaos&r sortent les nuits d'Halloween."
+			]
+			id: "24C034492EFFCE60"
+			rewards: [
+				{
+					id: "2B5C0E997F8EC40A"
+					item: "born_in_chaos_v1:sweet_sword"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39379C2DB190531E"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "77554D33565FF27E"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:pumpkinhead"
+					icon: "minecraft:carved_pumpkin"
+					id: "67A18E9A0CB4789F"
+					title: "Vaincre : Tête-de-citrouille"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tête-de-citrouille"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"244E2493E0281626"
+			]
+			description: [
+				"Les citrouilles de &6Born in Chaos&r sortent les nuits d'Halloween."
+			]
+			id: "265E62F9CD500F19"
+			rewards: [
+				{
+					id: "172433E0F5FBA159"
+					item: "born_in_chaos_v1:sweet_axe"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494C1B53F8A554F2"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "5450D11DA486AF5E"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:pumpkin_bruiser"
+					icon: "minecraft:carved_pumpkin"
+					id: "749F7625F7FA0260"
+					title: "Vaincre : Cogneur citrouille"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Cogneur citrouille"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"023743144367C919"
+				"7D5F1FC541F640B1"
+				"41F2C8AB1EA96B23"
+				"24C034492EFFCE60"
+				"265E62F9CD500F19"
+			]
+			description: [
+				"Un chevalier à tête de citrouille, souvent à cheval. Venez à plusieurs."
+			]
+			id: "72A4B556DAB310A6"
+			rewards: [
+				{
+					id: "7089FAC040F431D3"
+					item: "born_in_chaos_v1:pumpkinhandgun"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01ECDB6A882A0D03"
+					item: "born_in_chaos_v1:pumpkin_bullet"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6983C126D2C22F2D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E9ABC695DDE1FDE"
+					table_id: 7262077192781207520L
+					type: "random"
+				}
+				{
+					id: "3240E4A2F3103B88"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:sir_pumpkinhead"
+					icon: "minecraft:jack_o_lantern"
+					id: "4DFF51BD56F16B4A"
+					title: "Vaincre Sire Tête-de-citrouille"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6Sire Tête-de-citrouille"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"72A4B556DAB310A6"
+			]
+			description: [
+				"Le roi des citrouilles en personne. &cBoss&r — préparez potions, pommes dorées et armures."
+				"&7Optionnel : la soirée peut se terminer sans lui."
+			]
+			id: "3B3CD41CE5D91787"
+			optional: true
+			rewards: [
+				{
+					id: "020588241446EDB5"
+					item: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					type: "item"
+				}
+				{
+					id: "1FA6192C5BEC80D5"
+					item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+					type: "item"
+				}
+				{
+					id: "4607755CAC9DDDBF"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7933DC6993764163"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6DFF6BF94A2E9D67"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lord_pumpkinhead"
+					icon: "minecraft:jack_o_lantern"
+					id: "3E89346CF7AE9FD1"
+					title: "Vaincre le Seigneur Tête-de-citrouille"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4&lSeigneur Tête-de-citrouille"
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+	subtitle: [
+		"Spécial Halloween"
+	]
+	title: "&6La Nuit des Citrouilles"
+}

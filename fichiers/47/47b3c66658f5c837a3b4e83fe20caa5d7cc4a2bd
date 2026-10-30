@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiaire_interdit"
+	group: ""
+	icon: "minecraft:skeleton_skull"
+	id: "2AB7B4DA8824606E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"48DE4F0C8217521E"
+			]
+			description: [
+				"Les 14 monstres du tableau ne sont pas seuls. D'autres choses rôdent :"
+				"elles ne comptent pas pour l'évacuation, mais elles peuvent vous la faire rater."
+			]
+			id: "765A7A162C4704C3"
+			rewards: [
+				{
+					id: "4FB1434E60BE1D45"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:writable_book"
+					id: "0ED7F86EF325587E"
+					title: "Lire l'avertissement"
+					type: "checkmark"
+				}
+			]
+			title: "&5Pas seulement eux"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Il porte un visage familier. Peut-être même le tien."
+				"&7Méfie-toi d'un joueur qui ne répond pas au chat vocal..."
+			]
+			id: "6EF71A382F8E1EB5"
+			optional: true
+			rewards: [
+				{
+					id: "75A7434B4BF5826A"
+					item: "imposter:knife"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "094F0B4AC225D787"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "162526CE1253C304"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "37A5B4AC424C3DFB"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : L'Imposteur"
+					to_observe: "imposter:imposter"
+					type: "observation"
+				}
+			]
+			title: "L'Imposteur"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"On frappe à la porte. N'ouvre pas."
+			]
+			id: "172191F8E08BEAE1"
+			optional: true
+			rewards: [
+				{
+					id: "29A723775FDF6411"
+					item: "the_knocker:knocker_disc"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "581F461ABF1DC0D1"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "328CB1F1189D92F0"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "29BDC51CE3E36108"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Frappeur"
+					to_observe: "the_knocker:knocker"
+					type: "observation"
+				}
+			]
+			title: "Le Frappeur"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Tu l'entends avant de le voir."
+			]
+			id: "6F9B39E63B4030AA"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "1F3EC7EEF4FC56A4"
+					item: "born_in_chaos_v1:spiritual_dust"
+					type: "item"
+				}
+				{
+					id: "3953C28A64C70A01"
+					item: "born_in_chaos_v1:charmof_endurance"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE8997551014CBB"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "53A8A704FFBF1C6B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "2E6D0F83C422931F"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : L'Esprit chuchoteur"
+					to_observe: "whispering_spirits:whispering_spirit"
+					type: "observation"
+				}
+			]
+			title: "L'Esprit chuchoteur"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"« Tu as l'impression que quelque chose te poursuit... » Ce n'est pas une impression."
+			]
+			id: "2E5B39C5176171F7"
+			optional: true
+			rewards: [
+				{
+					id: "215F1FCBCBA4255F"
+					item: "born_in_chaos_v1:nightmare_stalker_skull"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B2F8594CA3ADF2E"
+					item: "born_in_chaos_v1:nightmare_claw"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BEF408A245517E1"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "43678D1B14BE7B60"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "minecraft:iron_sword"
+					id: "4FCA023BDEB07CAB"
+					title: "Vaincre : Le Traqueur des cauchemars"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Le Traqueur des cauchemars"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Chaque coup qu'il porte le soigne."
+			]
+			id: "0B6A67A0BD55C7AF"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "0D6E22DE705F9D0B"
+					item: "born_in_chaos_v1:elixir_of_vampirism"
+					type: "item"
+				}
+				{
+					id: "5BEFE0C7D690FFD9"
+					item: "born_in_chaos_v1:lifestealer_skull"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D2CBBEB433CAB2"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "2CAC59C747456A60"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lifestealer"
+					icon: "minecraft:iron_sword"
+					id: "4D3669D7F202804D"
+					title: "Vaincre : Le Voleur de vie"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Le Voleur de vie"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Il n'est pas drôle."
+			]
+			id: "0DCED084BBBDDFE1"
+			optional: true
+			rewards: [
+				{
+					id: "4C168AAB7AB3F3A8"
+					item: "born_in_chaos_v1:creepy_gift"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "320DA3269A803FED"
+					item: "born_in_chaos_v1:gummy_vampire_teeth"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B9E876ADCB4FBDE"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "32DD15CF96D0BC9F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:zombie_clown"
+					icon: "minecraft:iron_sword"
+					id: "3BC65BD46A292E4B"
+					title: "Vaincre : Le Clown zombie"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Le Clown zombie"
+			x: -6.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Là où il y a des bébés araignées, la mère n'est jamais loin."
+			]
+			id: "7BD10C5C7CF8CACA"
+			optional: true
+			rewards: [
+				{
+					id: "4B4A2427E187FC9A"
+					item: "born_in_chaos_v1:spider_bite_sword"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DC4716DA59BBE41"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "6B1C57D87F094960"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:mother_spider"
+					icon: "minecraft:iron_sword"
+					id: "5F1670D8C44892CA"
+					title: "Vaincre : La Mère des araignées"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Mère des araignées"
+			x: -3.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Il relève les morts autour de lui. Vise-le en premier."
+			]
+			id: "523944E268474B1B"
+			optional: true
+			rewards: [
+				{
+					id: "432CA14D83345DBA"
+					item: "born_in_chaos_v1:bonescaller_staff"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02E97309AB652660"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "1E2F02B4CF231408"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:bonescaller"
+					icon: "minecraft:iron_sword"
+					id: "4D7B2F285DC7BA15"
+					title: "Vaincre : L'Invocateur d'os"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "L'Invocateur d'os"
+			x: 0.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Un mini-boss en armure. Ne l'affrontez pas seuls."
+			]
+			id: "45C7864707B976CF"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "529E59B782029073"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "426151AE6104A028"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6454AE7238DDACA3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0009A2C998C5AAB5"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "2FD80F9131B3B359"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
+					icon: "minecraft:iron_sword"
+					id: "6200C36F33D4625D"
+					title: "Vaincre : Le Chevalier du chaos déchu"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Le Chevalier du chaos déchu"
+			x: 3.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Il frappe le sol et vous fait voler. Gardez vos distances."
+			]
+			id: "0F751A5E9D446867"
+			optional: true
+			rewards: [
+				{
+					id: "279E241291A85ED3"
+					item: "mutantmonsters:hulk_hammer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6098B0EA4E2AD961"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "3C29CA5D22041EEA"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "minecraft:iron_sword"
+					id: "5B91E14F3D12FE5D"
+					title: "Vaincre : Zombie mutant"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie mutant"
+			x: 6.0d
+			y: 4.7d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Ses flèches traversent tout."
+			]
+			id: "164CCE47753E7C9D"
+			optional: true
+			rewards: [
+				{
+					id: "257853EBE7D3F860"
+					item: "mutantmonsters:mutant_skeleton_chestplate"
+					type: "item"
+				}
+				{
+					id: "3A18C5046EEFC97B"
+					item: "mutantmonsters:mutant_skeleton_skull"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "404E271C1B07129C"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "3ED5D8AEC3B2F050"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: "minecraft:iron_sword"
+					id: "6552700F3631BF2C"
+					title: "Vaincre : Squelette mutant"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Squelette mutant"
+			x: -6.0d
+			y: 6.9d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Il charge, il saute... et il explose. Plusieurs fois."
+			]
+			id: "3DB56CC1E5ABB3A4"
+			optional: true
+			rewards: [
+				{
+					id: "7E14FAD323C5C60B"
+					item: "mutantmonsters:creeper_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6BF91CAB35217CC3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "005C14075CB4F5E0"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "15DD63FCFD0ADDD8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_creeper"
+					icon: "minecraft:iron_sword"
+					id: "22C6D926CC96A2E5"
+					title: "Vaincre : Creeper mutant"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Creeper mutant"
+			x: -3.0d
+			y: 6.9d
+		}
+		{
+			dependencies: [
+				"765A7A162C4704C3"
+			]
+			description: [
+				"Quatre bras, des blocs qui volent. Le pire de tous."
+			]
+			id: "53E5DCA6C148A4A9"
+			optional: true
+			rewards: [
+				{
+					id: "10F59F890942798F"
+					item: "mutantmonsters:endersoul_hand"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "323451E780FEEE52"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11441061111332C1"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "6DDF6C559B056B62"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_enderman"
+					icon: "minecraft:iron_sword"
+					id: "0599105608133325"
+					title: "Vaincre : Enderman mutant"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Enderman mutant"
+			x: 0.0d
+			y: 6.9d
+		}
+	]
+	subtitle: [
+		"Ce que le tableau ne mentionne pas"
+	]
+	title: "&5Le Bestiaire interdit"
+}

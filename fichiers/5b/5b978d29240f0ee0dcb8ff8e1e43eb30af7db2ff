@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survie"
+	group: ""
+	icon: "farmersdelight:cooking_pot"
+	id: "641A1A2CDB1A9B67"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"48DE4F0C8217521E"
+			]
+			description: [
+				"Gardez toujours assez d'&bendurance&r : vous pourriez devoir fuir à tout moment."
+				"Ce chapitre vous aide à manger, dormir et transporter de quoi survivre."
+			]
+			id: "290E15BAFEFF35D0"
+			rewards: [
+				{
+					id: "3E4ED880100EA009"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:bread"
+					id: "1252B3C027B6D297"
+					title: "Lu"
+					type: "checkmark"
+				}
+			]
+			title: "&bTenir sur la durée"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Farmer's Delight : des repas qui nourrissent bien plus que du steak."
+			]
+			id: "43C14FBE7EE39BCE"
+			rewards: [
+				{
+					count: 16
+					id: "768B56FAF0C03C70"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "18B9098FD0094392"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A2B13D90AB50456"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21479283956416C0"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "74239F4EDD46E03D"
+					item: "farmersdelight:cooking_pot"
+					title: "Obtenir : La marmite"
+					type: "item"
+				}
+			]
+			title: "La marmite"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Elle cuit... et elle assomme."
+			]
+			id: "38B2A608EC049FA3"
+			rewards: [
+				{
+					id: "0E2F9BD5ABEAAD3F"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "5709357DC4DD4F9D"
+					item: "farmersdelight:iron_knife"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CE59E94CEE8EC9E"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7946B30F3E12396B"
+					item: "farmersdelight:skillet"
+					title: "Obtenir : La poêle"
+					type: "item"
+				}
+			]
+			title: "La poêle"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Plus de place pour les provisions et les photos."
+			]
+			id: "0CC0D26C10B8AD5A"
+			rewards: [
+				{
+					id: "56CDEE87504E9A68"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					id: "2E396C774AE8E8A2"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "27EE9B2DA0B7FB42"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E3458AD9F5AB234"
+					item: "sophisticatedbackpacks:backpack"
+					title: "Obtenir : Le sac à dos"
+					type: "item"
+				}
+			]
+			title: "Le sac à dos"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Dormir loin de la base, juste le temps de passer la nuit... si on vous laisse dormir."
+			]
+			id: "43F1184FD7832CB7"
+			rewards: [
+				{
+					id: "3AC2B017333BE33C"
+					item: "comforts:hammock_orange"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6178778CFEBAE71B"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EC3C1377C219833"
+					table_id: 3122738221510032559L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2E053AF3C3FB9D8F"
+					item: "comforts:sleeping_bag_red"
+					title: "Obtenir : Le sac de couchage"
+					type: "item"
+				}
+			]
+			title: "Le sac de couchage"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Frapper de loin. Très utile contre ce qui ne doit pas s'approcher."
+			]
+			id: "36693E9C5D2A3DEC"
+			rewards: [
+				{
+					id: "149C7DD51CC2DAF8"
+					item: {
+						Count: 1b
+						id: "basicweapons:diamond_spear"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC24C5C4C0201C9"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "3F9509CD176341F3"
+					item: "basicweapons:iron_spear"
+					title: "Obtenir : La lance en fer"
+					type: "item"
+				}
+			]
+			title: "La lance en fer"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Lent, mais il fait reculer."
+			]
+			id: "7A3DD39A4DE7FCAF"
+			rewards: [
+				{
+					id: "0701AE9FDA708A85"
+					item: {
+						Count: 1b
+						id: "basicweapons:diamond_hammer"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:knockback"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F5EAC34880034D7"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "150024779E9A0938"
+					item: "basicweapons:iron_hammer"
+					title: "Obtenir : Le marteau en fer"
+					type: "item"
+				}
+			]
+			title: "Le marteau en fer"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Repérer une créature de loin avant qu'elle vous repère."
+			]
+			id: "3D54E8B0D1949D8C"
+			rewards: [
+				{
+					count: 4
+					id: "1116755C0693A756"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "3C9CCEC37B7F7778"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45761D4D159F96E7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "43A89B9FE5EE720D"
+					item: "minecraft:spyglass"
+					title: "Obtenir : La longue-vue"
+					type: "item"
+				}
+			]
+			title: "La longue-vue"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"290E15BAFEFF35D0"
+			]
+			description: [
+				"Certains monstres ne doivent jamais arriver au contact."
+			]
+			id: "1A6C9E0C281CD312"
+			rewards: [
+				{
+					id: "2C788328D3E8D29F"
+					item: {
+						Count: 1b
+						id: "minecraft:crossbow"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:quick_charge"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:piercing"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35407009ABAB860B"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "630087867558AE71"
+					item: "minecraft:bow"
+					title: "Obtenir : L'arc"
+					type: "item"
+				}
+			]
+			title: "L'arc"
+			x: 6.0d
+			y: 5.0d
+		}
+	]
+	subtitle: [
+		"S'équiper pour tenir"
+	]
+	title: "&bSurvie \\& confort"
+}

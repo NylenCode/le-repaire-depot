@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "id": "halloween",
+      "nom": "Halloween",
+      "sousTitre": "Project Horror Escape",
+      "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
+      "build": 2,
+      "version": "1.0.11+2",
+      "date": "2026-10-30T08:34:12.583Z",
+      "notes": "Première version du pack dans Le Repaire : mod de la sorcière, Curios et tout le reste.",
+      "changements": {
+        "ajoutes": [],
+        "retires": [],
+        "modifies": []
+      },
+      "taille": 446438494,
+      "manifeste": "packs/halloween/2.json",
+      "image": "packs/halloween/affiche.png",
+      "theme": {
+        "police": "pirata",
+        "accent": "#ff7a1a",
+        "accent2": "#c81e1e",
+        "ciel": [
+          "#05060f",
+          "#0b1026",
+          "#1a1430"
+        ],
+        "brume": "#3a3550",
+        "sol": "#03040a",
+        "lune": true,
+        "particules": "braises",
+        "lueur": "#ff7a1a"
+      },
+      "memoire": {
+        "conseille": 6144
+      },
+      "minecraft": "1.20.1",
+      "forge": "47.4.10",
+      "serveur": {
+        "adresse": "26.140.196.169",
+        "port": 25565,
+        "aide": "Allume Radmin VPN pour voir le serveur."
+      }
+    }
+  ]
+}

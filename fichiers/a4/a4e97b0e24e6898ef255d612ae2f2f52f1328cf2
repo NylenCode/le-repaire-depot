@@ -1,0 +1,65 @@
+{
+	icon: "projecthorrorescape:picture"
+	id: "699EC0DB80A06F05"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 3
+			item: "minecraft:golden_apple"
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "minecraft:ender_pearl"
+			weight: 3.0f
+		}
+		{
+			count: 3
+			item: "minecraft:diamond"
+			weight: 2.5f
+		}
+		{
+			count: 16
+			item: "minecraft:experience_bottle"
+			weight: 3.0f
+		}
+		{
+			count: 3
+			item: "waystones:return_scroll"
+			weight: 2.5f
+		}
+		{
+			item: "waystones:warp_stone"
+		}
+		{
+			item: "born_in_chaos_v1:charmof_stealth"
+		}
+		{
+			item: "born_in_chaos_v1:charmof_resistance"
+		}
+		{
+			item: "born_in_chaos_v1:charmof_endurance"
+		}
+		{
+			count: 2
+			item: "born_in_chaos_v1:stimulating_decoction"
+			weight: 2.0f
+		}
+		{
+			item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+		}
+		{
+			item: "sophisticatedbackpacks:magnet_upgrade"
+		}
+		{
+			item: "minecraft:totem_of_undying"
+			weight: 0.5f
+		}
+		{
+			item: "minecraft:enchanted_golden_apple"
+			weight: 0.4f
+		}
+	]
+	title: "Butin de l'enquêteur"
+}

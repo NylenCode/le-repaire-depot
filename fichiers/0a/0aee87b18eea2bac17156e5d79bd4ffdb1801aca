@@ -1,0 +1,84 @@
+{
+	icon: "minecraft:jack_o_lantern"
+	id: "64C814BB0F3097E0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 2
+			item: "born_in_chaos_v1:bagof_candy"
+			weight: 4.0f
+		}
+		{
+			count: 6
+			item: "born_in_chaos_v1:holiday_candy"
+			weight: 3.0f
+		}
+		{
+			count: 6
+			item: "born_in_chaos_v1:mint_candy"
+			weight: 3.0f
+		}
+		{
+			count: 6
+			item: "born_in_chaos_v1:coffee_candy"
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "born_in_chaos_v1:gummy_vampire_teeth"
+			weight: 2.0f
+		}
+		{
+			count: 3
+			item: "born_in_chaos_v1:chocolate_heart"
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: "born_in_chaos_v1:magical_holiday_candy"
+		}
+		{
+			item: "ls_spooky_foods:creeper_cake"
+			weight: 2.0f
+		}
+		{
+			count: 6
+			item: "ls_spooky_foods:magma_cookie"
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "ls_spooky_foods:fireball_lollipop"
+			weight: 3.0f
+		}
+		{
+			count: 3
+			item: "farmersdelight:pumpkin_soup"
+			weight: 2.0f
+		}
+		{
+			item: "farmersdelight:pumpkin_pie"
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: "creepydecorations:haunted_pumpkin"
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: "born_in_chaos_v1:flaming_evil_pumpkin"
+			weight: 1.5f
+		}
+		{
+			item: "born_in_chaos_v1:eternal_candy"
+			weight: 0.3f
+		}
+		{
+			item: "minecraft:totem_of_undying"
+			weight: 0.4f
+		}
+	]
+	title: "Citrouille surprise"
+}

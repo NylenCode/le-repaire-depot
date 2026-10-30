@@ -1,0 +1,68 @@
+{
+	icon: "minecraft:chest"
+	id: "2B5631DE13A3FCAF"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 4
+			item: "farmersdelight:beef_stew"
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "farmersdelight:steak_and_potatoes"
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "farmersdelight:hamburger"
+			weight: 2.5f
+		}
+		{
+			item: "farmersdelight:shepherds_pie"
+			weight: 1.5f
+		}
+		{
+			item: "farmersdelight:honey_glazed_ham"
+		}
+		{
+			count: 64
+			item: "minecraft:torch"
+			weight: 3.0f
+		}
+		{
+			count: 8
+			item: "minecraft:lantern"
+			weight: 2.0f
+		}
+		{
+			count: 16
+			item: "minecraft:iron_ingot"
+			weight: 3.0f
+		}
+		{
+			count: 48
+			item: "minecraft:arrow"
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: "ironchest:wood_to_iron_chest_upgrade"
+			weight: 1.5f
+		}
+		{
+			item: "comforts:sleeping_bag_orange"
+			weight: 1.5f
+		}
+		{
+			count: 3
+			item: "minecraft:golden_apple"
+			weight: 2.0f
+		}
+		{
+			item: "born_in_chaos_v1:elixirof_wither_resistance"
+		}
+	]
+	title: "Coffre du survivant"
+}
