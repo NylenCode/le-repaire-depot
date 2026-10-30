@@ -1,0 +1,38 @@
+{
+  "id": "trying-shi",
+  "nom": "Trying shi",
+  "sousTitre": "",
+  "accroche": "",
+  "auteur": "NylenCode",
+  "image": "jett funny.jpg",
+  "memoire": {
+    "conseille": 6144
+  },
+  "serveur": {
+    "adresse": "26.147.201.149",
+    "port": 2829
+  },
+  "inclure": [],
+  "premierLancement": [
+    "options.txt",
+    "config/oculus.properties",
+    "config/xaero/**"
+  ],
+  "original": [],
+  "exclure": [],
+  "theme": {
+    "police": "cinzel",
+    "accent": "#7ed36a",
+    "accent2": "#2f8f4e",
+    "ciel": [
+      "#07140f",
+      "#0d2a1f",
+      "#1c4630"
+    ],
+    "brume": "#2f4a3c",
+    "sol": "#040a06",
+    "lune": false,
+    "particules": "cendres",
+    "lueur": "#7ed36a"
+  }
+}
