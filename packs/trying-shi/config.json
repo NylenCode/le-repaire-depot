@@ -9,8 +9,9 @@
     "conseille": 6144
   },
   "serveur": {
-    "adresse": "26.147.201.149",
-    "port": 2829
+    "adresse": "26.45.165.143",
+    "port": 2829,
+    "aide": ""
   },
   "inclure": [],
   "premierLancement": [
