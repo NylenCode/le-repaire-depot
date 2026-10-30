@@ -6,17 +6,26 @@
       "nom": "Halloween",
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
-      "build": 2,
-      "version": "1.0.11+2",
-      "date": "2026-10-30T08:34:12.583Z",
-      "notes": "Première version du pack dans Le Repaire : mod de la sorcière, Curios et tout le reste.",
+      "build": 7,
+      "version": "1.0.11+7",
+      "date": "2026-10-30T11:42:02.593Z",
+      "notes": "Esprits : clic gauche frapper, double clic souffler, clic droit hanter. Bonbons bien plus rares. Réglages des joueurs conservés.",
       "changements": {
-        "ajoutes": [],
-        "retires": [],
-        "modifies": []
+        "ajoutes": [
+          "mods/halloween_client-1.0.12.jar",
+          "mods/halloween_rea-1.4.3.jar"
+        ],
+        "retires": [
+          "mods/halloween_client-1.0.11.jar",
+          "mods/halloween_rea-1.4.2.jar"
+        ],
+        "modifies": [
+          "config/oculus.properties",
+          "options.txt"
+        ]
       },
-      "taille": 446438494,
-      "manifeste": "packs/halloween/2.json",
+      "taille": 449105191,
+      "manifeste": "packs/halloween/7.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
