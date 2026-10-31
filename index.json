@@ -6,26 +6,50 @@
       "nom": "Halloween",
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
-      "build": 7,
-      "version": "1.0.11+7",
-      "date": "2026-10-30T11:42:02.593Z",
-      "notes": "Esprits : clic gauche frapper, double clic souffler, clic droit hanter. Bonbons bien plus rares. Réglages des joueurs conservés.",
+      "build": 8,
+      "version": "1.1.1+8",
+      "date": "2026-10-31T06:25:22.531Z",
+      "notes": "Mise a jour du pack en 1.1.1 et nouvelle intro avec voix-off.",
       "changements": {
         "ajoutes": [
-          "mods/halloween_client-1.0.12.jar",
-          "mods/halloween_rea-1.4.3.jar"
+          "config/borderlesswindow-client.toml",
+          "config/flashlightmod-client.toml",
+          "config/flashlightmod-common.toml",
+          "config/jei/world/local/New World (67)/lookupHistory.ini",
+          "config/jei/world/local/New World (68)/lookupHistory.ini",
+          "mods/betterzoom-forge-1.20.1-3.0.0.jar",
+          "mods/collective-1.20.1-8.71.jar",
+          "mods/Flashier Flashlights 1.2.0.jar",
+          "mods/godwand-forge-1.20.1-1.3.4.jar",
+          "mods/halloween_client-1.0.14.jar",
+          "mods/halloween_rea-1.4.4.jar",
+          "mods/PHE-core-1.20.1-1.0.11.jar",
+          "mods/sophisticatedbackpacks-1.20.1-3.26.18.2237.jar",
+          "mods/sophisticatedcore-1.20.1-1.5.19.2441.jar",
+          "mods/UndergroundBunkers-1.0.5-1.20.x-forge.jar"
         ],
         "retires": [
-          "mods/halloween_client-1.0.11.jar",
-          "mods/halloween_rea-1.4.2.jar"
+          "mods/betterzoom-forge-1.20.1-2.9.0.jar",
+          "mods/collective-1.20.1-8.69.jar",
+          "mods/godwand-forge-1.20.1-1.3.2.jar",
+          "mods/halloween_client-1.0.12.jar",
+          "mods/halloween_rea-1.4.3.jar",
+          "mods/PHE-core-1.20.1-1.0.9.jar",
+          "mods/sophisticatedbackpacks-1.20.1-3.26.17.2231.jar",
+          "mods/sophisticatedcore-1.20.1-1.5.17.2435.jar"
         ],
         "modifies": [
-          "config/oculus.properties",
-          "options.txt"
+          "config/betterzoom-client.toml",
+          "config/daycounter-player-days.json",
+          "config/jei/ingredient-list-mod-sort-order.ini",
+          "config/modernfix-mixins.properties",
+          "config/sound_physics_remastered/sound_rates.properties",
+          "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+          "shaderpacks/Insanity-Shader-Universal-v1.650.zip.txt"
         ]
       },
-      "taille": 449105191,
-      "manifeste": "packs/halloween/7.json",
+      "taille": 461221423,
+      "manifeste": "packs/halloween/8.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
