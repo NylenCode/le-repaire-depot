@@ -1,0 +1,1236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tableau_enquete"
+	group: ""
+	icon: "projecthorrorescape:corkboard"
+	id: "209B367B30D53C34"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"63B3747A55F807BE"
+			]
+			description: [
+				"Le serveur est un &cserveur dédié&r : il faut documenter les &c14 monstres&r pour débloquer l'évacuation."
+				""
+				"Pour chaque créature : trouve-la, &6vise-la&r (la quête se valide quand tu la regardes),"
+				"puis &6photographie-la&r et épingle la photo sur le tableau."
+				"&7Les quêtes suivent ta progression ; seul le tableau compte pour la mission."
+			]
+			id: "793D72ABBFB45381"
+			rewards: [
+				{
+					id: "31FADA595CA8DCE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					icon: "projecthorrorescape:corkboard"
+					id: "2B2C08F925C37C28"
+					title: "Ouvrir la liste des créatures recherchées"
+					type: "checkmark"
+				}
+			]
+			title: "&cL'enquête commence"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Suivre les pleurs... à tes risques et périls."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : un charme de résistance, pour encaisser quand elle craque."
+			]
+			id: "3A3DE149F7A63C4D"
+			rewards: [
+				{
+					id: "3955D120A76CF908"
+					item: "born_in_chaos_v1:charmof_resistance"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5ABB864E345868AD"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2183CD4D37C537D8"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "08DC455A3E315D28"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "06053C6626A1D591"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Lenore"
+					to_observe: "thelenore:lenore"
+					type: "observation"
+				}
+			]
+			title: "Lenore"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Méfie-toi des yeux dans le noir."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : 3 potions de vision nocturne. À ton tour de voir dans le noir."
+			]
+			id: "274A089E12D35A5A"
+			rewards: [
+				{
+					count: 3
+					id: "22F5AE09D76EA84F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56BFE0641F8747C4"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "4F526D89EE291892"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "50576872AB8A9983"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Nyctovore"
+					to_observe: "nyctovore:the_nyctovore"
+					type: "observation"
+				}
+			]
+			title: "Le Nyctovore"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Une présence immense dans les biomes gelés."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : la Lame gelée et 2 élixirs de barrière de glace."
+			]
+			id: "4F19ABD6675B7360"
+			rewards: [
+				{
+					id: "22BA15AD03861DEF"
+					item: "born_in_chaos_v1:frostbitten_blade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E511F19D035CC95"
+					item: "born_in_chaos_v1:elixirof_ice_barrier"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FA0CE258DDC9B16"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "694BDF88A4649659"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "12D868ACBB7A6200"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Frost-Husk"
+					to_observe: "frosthusk:frost_husk"
+					type: "observation"
+				}
+			]
+			title: "Le Frost-Husk"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Une mélodie traverse la nuit."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : de quoi lui répondre en musique."
+			]
+			id: "4D651864F3FDC9F4"
+			rewards: [
+				{
+					id: "5C4434AA308928C0"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "72377A6E4A3C6A52"
+					item: "ls_spooky_music:album_kurzel_covenant"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71AE09A05721D036"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662CC7DEBA22561D"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "568B09778A3AA36B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "4EFDBCA769D28811"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : La Femme qui fredonne"
+					to_observe: "hummingwoman:humming_woman"
+					type: "observation"
+				}
+			]
+			title: "La Femme qui fredonne"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"L'observateur revient avec la nuit."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : la &fLarme de l'Homme&7 et une cassette. Larme au sol + livre en main quand il te tue = enchantement du brouillard..."
+			]
+			id: "7802EFE5E707C070"
+			rewards: [
+				{
+					id: "2AEE9801A5402D0A"
+					item: "man:tearoftheman"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A8D755D6F4A6634"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "2B5016C0067442CA"
+					item: "man:cassette_1safetyinstructions"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F59EC7AA4977CE"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "0C54A6FAB1AE0CFF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "74D9B62569687E8D"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : L'Homme du brouillard"
+					to_observe: "man:manfromthefog"
+					type: "observation"
+				}
+			]
+			title: "L'Homme du brouillard"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Un squelette voûté rôde dans l'obscurité. Garde tes distances pour une photo nette."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : une massue en diamant. Rien de tel contre les os."
+			]
+			id: "647EB810AFB12139"
+			rewards: [
+				{
+					id: "0B3966B36AE612B5"
+					item: "basicweapons:diamond_club"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0809310C5C041087"
+					item: "born_in_chaos_v1:bundle_of_bones"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A6FB68F72E9256D"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "7AE3F410C19B2D66"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "1E89760A32F31776"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Squelette décrépit"
+					to_observe: "born_in_chaos_v1:decrepit_skeleton"
+					type: "observation"
+				}
+			]
+			title: "Le Squelette décrépit"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Quelque chose, sous la terre, écoute."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : une pioche en diamant Efficacité III. Creuse... mais pas trop profond."
+			]
+			id: "660A6505CCFD552F"
+			rewards: [
+				{
+					id: "2CDED657E02F3C47"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D4CD9C516322242"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "7F26B7A6B53CEF91"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "654CC1940E98AA19"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : La Taupe"
+					to_observe: "the_mole:themole"
+					type: "observation"
+				}
+			]
+			title: "La Taupe"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Les bruits de la grotte se rapprochent."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : torches, vision nocturne et perles pour fuir."
+			]
+			id: "260DAB9EA64A3FA9"
+			rewards: [
+				{
+					count: 64
+					id: "77892EE6C863FC0F"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B9AC2DE434C921E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45F27A6F928F6547"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B55732B559144C"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "6F668789D4D16816"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "3F12C14EDCD0C2AB"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Cave Dweller"
+					to_observe: "cave_dweller:cave_dweller"
+					type: "observation"
+				}
+			]
+			title: "Le Cave Dweller"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Prends la photo avant que l'observateur disparaisse."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : de quoi disparaître à ton tour."
+			]
+			id: "38CA8063E18A7190"
+			rewards: [
+				{
+					count: 8
+					id: "6A6E614A7D8EF5F8"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67399C7AC07A9C4F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36B8D89D76BBA073"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "0736D8048F0E3426"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "438EAB77F04E12BE"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Cryptide"
+					to_observe: "cryptid_vx:cryptid"
+					type: "observation"
+				}
+			]
+			title: "Le Cryptide"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Une créature pâle qui pleure seule. &cNe regarde pas son visage.&r"
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : les &fLunettes brouilleuses&7. Avec elles, son visage ne te condamne plus."
+			]
+			id: "7A5B356ABD07A775"
+			rewards: [
+				{
+					id: "4CBC33C6831CACB4"
+					item: "shy_guy:scramble_goggles_helmet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D218BE18F82217C"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "4ED6F7360C20E50B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "0921376AA455D7C8"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : SCP-096"
+					to_observe: "shy_guy:shy_guy"
+					type: "observation"
+				}
+			]
+			title: "SCP-096"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Il erre dans les grottes luxuriantes le jour. Aveugle mais à l'ouïe terrible : s'il t'attrape, &cne bouge plus&r."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : charme de discrétion et livre Furtivité II. Il ne t'entendra plus venir."
+			]
+			id: "0A28D58CA81613F6"
+			rewards: [
+				{
+					id: "6873EF0AC806082E"
+					item: "born_in_chaos_v1:charmof_stealth"
+					type: "item"
+				}
+				{
+					id: "4266DD7CCF00ADF1"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:swift_sneak"
+									lvl: 2s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "426581418A493DDE"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "2F336A8165F8F4B6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "7540A0833E301D00"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Le Tailleur aveugle"
+					to_observe: "the_blind_tailor:blind_tailor"
+					type: "observation"
+				}
+			]
+			title: "Le Tailleur aveugle"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Cherche-le la nuit ou sous terre, et méfie-toi de son approche."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : le Diviseur d'esprits, une lame faite pour eux."
+			]
+			id: "60667450577ECCF5"
+			rewards: [
+				{
+					id: "2807BBA319D19516"
+					item: "born_in_chaos_v1:spiritual_sword"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4337E6B1BF937064"
+					item: "born_in_chaos_v1:spiritual_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74E2658EBC856DE3"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "548D199113634E71"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "2141E1C4099C5314"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : L'Esprit sans repos"
+					to_observe: "born_in_chaos_v1:restless_spirit"
+					type: "observation"
+				}
+			]
+			title: "L'Esprit sans repos"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3A3DE149F7A63C4D"
+				"274A089E12D35A5A"
+				"4F19ABD6675B7360"
+				"4D651864F3FDC9F4"
+				"7802EFE5E707C070"
+				"647EB810AFB12139"
+				"660A6505CCFD552F"
+				"260DAB9EA64A3FA9"
+				"38CA8063E18A7190"
+				"7A5B356ABD07A775"
+				"0A28D58CA81613F6"
+				"60667450577ECCF5"
+				"7C4640A6B3EFAEE3"
+				"4C3ABA4E4D651DA7"
+			]
+			description: [
+				"Les 14 preuves sont épinglées : sur le tableau, choisis &6« Lancer la mission finale »&r"
+				"pour recevoir la &6balise GPS&r."
+				""
+				"Avant de l'activer : soyez &6à ciel ouvert&r, reposés, et portez vos &6citrouilles&r."
+			]
+			id: "559ABE0880EEED18"
+			rewards: [
+				{
+					count: 8
+					id: "5D1368BDBB9EAC17"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "32275E8DA5F08AA4"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "59809338AB57FB95"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58D2D56F6C096513"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "406C16FE92525EE0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "3DB10376BE508F69"
+					item: "projecthorrorescape:gps_signal_device"
+					title: "Obtenir la balise GPS"
+					type: "item"
+				}
+			]
+			title: "&6Lancer la mission finale"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"559ABE0880EEED18"
+			]
+			description: [
+				"Le signal de la balise attire une créature : &4le Disruptor&r."
+				"Interférences, vision qui vacille : il approche."
+				"Une &6citrouille sculptée&r sur la tête peut le tromper. Ne cours pas, ne saute pas, ne l'attaque pas."
+				"&7Et ne crois jamais qu'il a cessé de te chercher."
+			]
+			id: "264699FDE6A75CBD"
+			rewards: [
+				{
+					id: "76096AB8D73D3223"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "3953E68298B3ABD3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:carved_pumpkin"
+					id: "21EE19C9A5C470F2"
+					observe_type: 5
+					timer: 0L
+					title: "Croiser le Disruptor"
+					to_observe: "projecthorrorescape:the_disruptor"
+					type: "observation"
+				}
+			]
+			title: "&4Le Disruptor"
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"559ABE0880EEED18"
+			]
+			description: [
+				"Active la balise : &690 secondes&r à survivre."
+				"Restez visibles du ciel — sous un toit ou dans une grotte, l'hélicoptère ne vous verra pas."
+				""
+				"&aSi vous lisez ceci de l'autre côté : bravo. Vous êtes rentrés à la maison."
+			]
+			id: "1A164B0CEE7D7818"
+			rewards: [
+				{
+					count: 2
+					id: "706E957ABEFD1DAC"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "592CE9D13BEF1897"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "50B134F7D53329EB"
+					item: "horror_element_mod:herobrine_head"
+					type: "item"
+				}
+				{
+					id: "0B7A1C9457BAF8FF"
+					item: "born_in_chaos_v1:eternal_candy"
+					type: "item"
+				}
+				{
+					id: "2D7A1AAD46FBD4F9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [
+				{
+					icon: "minecraft:elytra"
+					id: "2C069965A7F8C686"
+					title: "L'hélicoptère nous a récupérés"
+					type: "checkmark"
+				}
+			]
+			title: "&a&lÉVACUATION"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Un démon déchu qui se cache dans une victime piégée. On parle d'un &6laboratoire&r où il attend..."
+				"&cIl revient aussi toutes les 13 nuits.&r Méfie-toi des survivants qui demandent de l'aide."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : une icône d'exorcisme, une vieille croix et un totem d'immortalité."
+			]
+			id: "7C4640A6B3EFAEE3"
+			rewards: [
+				{
+					id: "27F40C225DF8865E"
+					item: "born_in_chaos_v1:exorcism_icon"
+					type: "item"
+				}
+				{
+					id: "5A66750BBDD1DB86"
+					item: "creepydecorations:wooden_cross"
+					type: "item"
+				}
+				{
+					id: "58C1B2F66085EE2B"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F55FB64CECD036"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "6D32E15C50715C32"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "4D4614A759368905"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : Samael le Déchu"
+					to_observe: "projecthorrorescape:laboratory_survivor"
+					type: "observation"
+				}
+			]
+			title: "Samael le Déchu"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"793D72ABBFB45381"
+			]
+			description: [
+				"Un homme-bouc qui rôde dans les &6forêts&r et les taïgas, surtout la nuit. Craintif au début..."
+				"puis, au fil des jours, il &cobserve, suit et traque&r. Il charge, bondit et peut t'&cenlever&r en volant ton équipement."
+				"Il ne se montre que quelques secondes : garde l'appareil photo prêt."
+				""
+				"&7Puis photographie-le et épingle la preuve au tableau."
+				""
+				"&7Récompense : un bouclier Solidité III (le bloquer quand il charge l'étourdit), des pommes d'or et une corne de chèvre."
+			]
+			id: "4C3ABA4E4D651DA7"
+			rewards: [
+				{
+					id: "6AE83CF56E4D6ADD"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "136C83F95B74535C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "156A8F388473DCAF"
+					item: "minecraft:goat_horn"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FD70241EEF3ADDE"
+					table_id: 7610732469291085573L
+					type: "random"
+				}
+				{
+					id: "49F5C45F195AC34B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					icon: "projecthorrorescape:camera"
+					id: "1D5645C3261E91B8"
+					observe_type: 5
+					timer: 0L
+					title: "Repérer : le GoatMan"
+					to_observe: "goat_man:goat_man"
+					type: "observation"
+				}
+			]
+			title: "Le GoatMan"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"559ABE0880EEED18"
+			]
+			description: [
+				"Les 14 monstres sont photographiés et épinglés. Vous avez fait ce que personne n'avait fait."
+				""
+				"&6Chacun&r récupère ici son équipement complet en netherite : armure Protection IV, Solidité III, Raccommodage,"
+				"épée Tranchant V, Solidité III, Raccommodage, plus &6128 steaks&r, &620 pommes d'or&r et &65 pommes d'or enchantées&r."
+				""
+				"&cEt un fusil d'assaut SCAR-H&r, chargeur plein, avec &c144 balles&r de .308. Recharge avec la touche de rechargement."
+				""
+				"&7Vous allez en avoir besoin pour la mission finale."
+			]
+			icon: "minecraft:netherite_chestplate"
+			id: "152D85DE1F4FAB29"
+			rewards: [
+				{
+					id: "03262ECD6A112EAA"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73A1E38FF0D98734"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A87100902FAD8FF"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12CFE65EC5E28211"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "071BA7BB0CBFF5F4"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6571545B2D70E39D"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "45701437F3BECA87"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "105A0D22B27A6186"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "029B92C6086B206A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "444655D8FD58B843"
+					item: {
+						Count: 1b
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:scar_h"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "11961E98BA432342"
+					item: {
+						Count: 1b
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "56204418AF3E0E26"
+					item: {
+						Count: 1b
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "40C743B15D6BA0BB"
+					item: {
+						Count: 1b
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					icon: "minecraft:netherite_chestplate"
+					id: "2C9C4DD4D461793E"
+					title: "Récupérer mon équipement"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lTableau complet"
+			x: 3.0d
+			y: 11.5d
+		}
+	]
+	subtitle: [
+		"Les 14 monstres recherchés"
+	]
+	title: "&cLe Tableau d'enquête"
+}

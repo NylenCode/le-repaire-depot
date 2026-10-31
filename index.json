@@ -6,21 +6,25 @@
       "nom": "Halloween",
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
-      "build": 9,
-      "version": "1.1.1+9",
-      "date": "2026-10-31T10:04:16.100Z",
-      "notes": "Intro : nouvelle voix-off",
+      "build": 10,
+      "version": "1.1.1+10",
+      "date": "2026-10-31T20:58:26.825Z",
+      "notes": "Nuits et grottes plus lisibles, armes TaCZ, récompense de fin : netherite et SCAR-H",
       "changements": {
         "ajoutes": [
-          "mods/halloween_client-1.0.15.jar"
+          "mods/halloween_client-1.0.16.jar",
+          "mods/tacz-1.20.1-1.1.8-hotfix2.jar"
         ],
         "retires": [
-          "mods/halloween_client-1.0.14.jar"
+          "mods/halloween_client-1.0.15.jar"
         ],
-        "modifies": []
+        "modifies": [
+          "config/ftbquests/quests/chapters/tableau_enquete.snbt",
+          "shaderpacks/Insanity-Shader-Universal-v1.650.zip.txt"
+        ]
       },
-      "taille": 461201268,
-      "manifeste": "packs/halloween/9.json",
+      "taille": 518678169,
+      "manifeste": "packs/halloween/10.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
