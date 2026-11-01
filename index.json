@@ -247,5 +247,8 @@
         "aide": ""
       }
     }
+  ],
+  "depots": [
+    "https://rasha4d.github.io/le-repaire-depot/"
   ]
 }
