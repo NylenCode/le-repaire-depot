@@ -6,23 +6,21 @@
       "nom": "Halloween",
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
-      "build": 11,
-      "version": "1.1.1+11",
-      "date": "2026-10-31T21:50:18.145Z",
-      "notes": "Connexion plus patiente quand Radmin se bloque",
+      "build": 12,
+      "version": "1.1.1+12",
+      "date": "2026-11-01T16:55:46.303Z",
+      "notes": "",
       "changements": {
         "ajoutes": [
-          "mods/halloween_client-1.0.17.jar",
-          "mods/halloween_rea-1.4.5.jar"
+          "mods/godwand-forge-1.20.1-1.3.5.jar"
         ],
         "retires": [
-          "mods/halloween_client-1.0.16.jar",
-          "mods/halloween_rea-1.4.4.jar"
+          "mods/godwand-forge-1.20.1-1.3.4.jar"
         ],
         "modifies": []
       },
-      "taille": 518680422,
-      "manifeste": "packs/halloween/11.json",
+      "taille": 518754485,
+      "manifeste": "packs/halloween/12.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
