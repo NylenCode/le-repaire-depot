@@ -11,7 +11,7 @@
   "serveur": {
     "adresse": "26.140.196.169",
     "port": 25565,
-    "aide": "Allume Radmin VPN pour voir le serveur."
+    "aide": "Le serveur est hors-ligne pour le moment."
   },
   "inclure": [
     "config/ftbquests/**",
@@ -52,5 +52,6 @@
     "lune": true,
     "particules": "braises",
     "lueur": "#ff7a1a"
-  }
+  },
+  "auteur": ""
 }
