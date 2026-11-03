@@ -7,20 +7,19 @@
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
       "auteur": "",
-      "build": 13,
-      "version": "1.1.1+13",
-      "date": "2026-11-01T19:29:30.795Z",
-      "notes": "Ajout de Security Craft, Iron Furnaces",
+      "build": 14,
+      "version": "1.1.1+14",
+      "date": "2026-11-03T12:00:57.904Z",
+      "notes": "Ajout de Ping Wheel",
       "changements": {
         "ajoutes": [
-          "mods/[1.20.1] SecurityCraft v1.10.2.1.jar",
-          "mods/ironfurnaces-1.20.1-4.1.8.jar"
+          "mods/Ping-Wheel-1.12.1-forge-1.20.1.jar"
         ],
         "retires": [],
         "modifies": []
       },
-      "taille": 524363271,
-      "manifeste": "packs/halloween/13.json",
+      "taille": 524520585,
+      "manifeste": "packs/halloween/14.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
