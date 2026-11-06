@@ -5,7 +5,7 @@
   "forge": "both",
   "biomesoplenty": "both",
   "terrablender": "both",
-  "bookshelf": "client",
+  "bookshelf": "both",
   "ambientsounds": "both",
   "creativecore": "both",
   "controlling": "client",
@@ -139,5 +139,9 @@
   "shouldersurfing": "both",
   "securitycraft": "both",
   "ironfurnaces": "both",
-  "pingwheel": "both"
+  "pingwheel": "both",
+  "biomesize": "both",
+  "cupboard": "both",
+  "structory": "both",
+  "themimic_er": "both"
 }
