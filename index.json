@@ -63,6 +63,7 @@
     }
   ],
   "depots": [
-    "https://raw.githubusercontent.com/Rasha4d/le-repaire-depot/main/"
+    "https://raw.githubusercontent.com/Rasha4d/le-repaire-depot/main/",
+    "https://rasha4d.github.io/le-repaire-depot/"
   ]
 }
