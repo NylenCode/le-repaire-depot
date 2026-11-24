@@ -7,40 +7,33 @@
       "sousTitre": "Project Horror Escape",
       "accroche": "Une nuit. Quatorze monstres à photographier. Reste groupé, et parle moins fort.",
       "auteur": "",
-      "build": 17,
-      "version": "2.2.0+17",
-      "date": "2026-11-12T23:02:12.308Z",
+      "build": 18,
+      "version": "2.3.0+18",
+      "date": "2026-11-24T09:17:09.897Z",
       "notes": "",
       "changements": {
         "ajoutes": [
-          "mods/collective-1.20.1-8.85.jar",
-          "mods/CreativeCore_FORGE_v2.12.42_mc1.20.1.jar",
-          "mods/modernfix-forge-5.27.92-mc1.20.1.jar",
-          "mods/Pale_Hound-1.20.1-1.10.0.jar",
-          "mods/PHE-core-1.20.1-1.0.15.jar",
-          "mods/sophisticatedbackpacks-1.20.1-3.26.20.2248.jar",
-          "mods/sophisticatedcore-1.20.1-1.5.30.2465.jar"
+          "mods/collective-1.20.1-8.86.jar",
+          "mods/godwand-forge-1.20.1-1.6.2.jar",
+          "mods/PHE-core-1.20.1-1.0.16.jar",
+          "mods/tacz-forge-1.20.1-1.2.0-hotfix.jar"
         ],
         "retires": [
-          "mods/collective-1.20.1-8.84.jar",
-          "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
-          "mods/modernfix-forge-5.27.91+mc1.20.1.jar",
-          "mods/PHE-core-1.20.1-1.0.13.jar",
-          "mods/sophisticatedbackpacks-1.20.1-3.26.19.2239.jar",
-          "mods/sophisticatedcore-1.20.1-1.5.29.2459.jar"
+          "mods/collective-1.20.1-8.85.jar",
+          "mods/godwand-forge-1.20.1-1.4.1.jar",
+          "mods/PHE-core-1.20.1-1.0.15.jar",
+          "mods/tacz-forge-1.20.1-1.2.0.jar"
         ],
         "modifies": [
-          "config/cryptidvxconfig.toml",
           "config/daycounter-player-days.json",
-          "config/jei/ingredient-list-mod-sort-order.ini",
-          "config/man_config.toml",
+          "config/incontrol/spawn.json",
           "config/oculus.properties",
           "config/sound_physics_remastered/sound_rates.properties",
           "options.txt"
         ]
       },
-      "taille": 579140231,
-      "manifeste": "packs/halloween/17.json",
+      "taille": 583242967,
+      "manifeste": "packs/halloween/18.json",
       "image": "packs/halloween/affiche.png",
       "theme": {
         "police": "pirata",
